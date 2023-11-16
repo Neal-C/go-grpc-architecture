@@ -9,3 +9,10 @@ Every design and tech decision taken, were based, in order of importance by: wha
 ### Tech Stack
 
 - gRPC
+- protobuf
+- google grpc
+
+```shell
+go get -u google.golang.org/protobuf/cmd/protoc-gen-go@v1.26
+go get -u google.golang.org/grpc/cmd/protoc-gen-go-rpc@v1.1
+```
