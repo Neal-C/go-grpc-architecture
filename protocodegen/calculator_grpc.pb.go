@@ -4,7 +4,7 @@
 // - protoc             v3.12.4
 // source: calculator.proto
 
-package proto_codegen
+package protocodegen
 
 import (
 	context "context"
