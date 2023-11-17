@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package calculator;
 
-option go_package = "./proto-codegen";
+option go_package = "./protocodegen";
 
 service Calculator {
     rpc Add(CalculationRequest) returns (CalculationResponse);
