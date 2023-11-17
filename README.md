@@ -12,7 +12,13 @@ Every design and tech decision taken, were based, in order of importance by: wha
 - protobuf
 - google grpc
 
+### Requirements
+
+- protoc version >=3
+
+- Go protocol compiler plugins
+
 ```shell
-go get -u google.golang.org/protobuf/cmd/protoc-gen-go@v1.26
-go get -u google.golang.org/grpc/cmd/protoc-gen-go-rpc@v1.1
+go install google.golang.org/protobuf/cmd/protoc-gen-go@v1.28
+go install google.golang.org/grpc/cmd/protoc-gen-go-rpc@v1.2
 ```
