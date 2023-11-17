@@ -12,6 +12,10 @@ Every design and tech decision taken, were based, in order of importance by: wha
 - protobuf
 - google grpc
 
+```shell
+go get -u google.golang.org/grpc
+```
+
 ### Requirements
 
 - protoc version >=3
