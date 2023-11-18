@@ -6,11 +6,19 @@ option go_package = "./protocodegen";
 
 service Calculator {
     rpc Add(CalculationRequest) returns (CalculationResponse);
+    rpc Divide(CalculationRequest) returns (CalculationResponse);
+    rpc Sum(NumbersRequest) returns (CalculationResponse);
+    rpc Sub(CalculationRequest) returns (CalculationResponse);
+    rpc Multiply(CalculationRequest) returns (CalculationResponse);
 }
 
 message CalculationRequest {
     int64 a = 1;
     int64 b = 2;
+}
+
+message NumbersRequest {
+    repeated int64 numbers = 1;
 }
 
 message CalculationResponse {
